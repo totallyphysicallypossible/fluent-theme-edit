@@ -1,0 +1,48 @@
+/**
+ * @name Fluent
+ * @author Gibbu
+ * @version 1.0.10
+ * @description Brings the look of Windows 11 to Discord.
+ * @source https://github.com/DiscordStyles/Fluent
+ * @invite ZHthyCw
+ * @authorId 174868361040232448
+*/
+
+@import url('https://discordstyles.github.io/Fluent/Fluent.css');
+
+@import url("https://discordstyles.github.io/Fluent/SelfMessages.css"); /* Self Messages - Moves your messages to the right of the chat box. Remove to disable */
+
+  #app-mount .channel-1Shao0 .layout-1LjVue {
+  height: 40px;
+  padding: 0 12px;
+  cursor: var(--cursor);
+  }
+
+  /* this completely breaks the theme so dont use (gotta figure out how to make this work) */
+  /* .theme-dark .sidebar-nqHbhN .side-2ur1Qk .item-3XjbnG .textBadge-1fdDPJ {
+  height: auto;
+  padding: 0px 40px;
+  background-color: #2E2E2E !important;
+  font-feature-settings: "rclt" 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: none;
+  border-radius: 24px;*/
+
+:root {
+  --accent: 129, 196, 253; /* The colour used throughout the app | R,G,B format | Default: 98, 205, 254 */
+  --channels-width: 270px; /* Size of the server channel/dms list | Default: 300px */
+  --members-width: 270px; /* Size of the members list | Default: 280px */
+  --server-size: 48px; /* Size of each server in the server list | Default: 48px */
+  --dark-background-hue: 0; /* The hue of the background colour. | Options: 0 to 360 | Default: 0 */
+  --dark-background-saturation: 0%; /* How much of the colour should be visible. | Must end in a % | Default: 0% */
+  --rounded: 6px;
+  --rounded-high: 9px;
+  --fluent-acrylic-background: url(https://cdn.discordapp.com/attachments/862716886067445820/887579790289297408/Captured_Motion_27.jpg);
+  --fluent-acrylic-background-blur: 24px;
+  --fluent-acrylic-background-dimness: 75%;
+  --fluent-acrylic-background-saturate: 140%;
+  --fluent-guilds-icon-size: 24px;
+  }
